@@ -1,0 +1,20 @@
+.list {
+  margin: 20px auto;
+  @include flex;
+  flex-direction: column;
+  width: 90%;
+  @include breakpoint {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}
+
+.pic {
+  display: inline;
+  margin: 20px auto;
+  @include breakpoint {
+    text-align: center;
+    width: 25%;
+    margin: 30px 0px;
+  }
+}
