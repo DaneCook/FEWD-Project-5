@@ -1,7 +1,8 @@
 .list {
   margin: 20px auto;
-  @include flex;
+  display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   width: 90%;
   @include breakpoint {
     flex-flow: row wrap;
